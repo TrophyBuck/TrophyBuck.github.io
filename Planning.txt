@@ -1,0 +1,14 @@
+Icons
+	fa-gamepad
+	fa-newspaper-o OR fa-pencil
+	fa-youtube-play OR fa-youtube
+	fa-music
+	fa-github OR fa-github-square
+	fa-microphone
+
+
+green:	timeline-badge success
+blue:	timeline-badge info
+red:	timeline-badge danger
+yellow:	timeline-badge warning
+grey:	timeline-badge default
