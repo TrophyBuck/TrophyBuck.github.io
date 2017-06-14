@@ -1,6 +1,6 @@
 ---
 exclude: ['README.markdown']
 permalink: ':title'
-highlighter: rogue
+highlighter: rouge
 safe: false
-title: 'Carte'
+title: 'Array of Characters'
