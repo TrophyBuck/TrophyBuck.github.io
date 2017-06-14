@@ -1,6 +1,6 @@
 prose:
   rooturl: ''
-  siteurl: 'http://example.com/'
+  siteurl: 'http://arrayofcharacters.com'
   relativeLinks: 'http://example.com/links.jsonp'
   media: 'images/media'
   ignore:
