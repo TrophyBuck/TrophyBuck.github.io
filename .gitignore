@@ -3,6 +3,7 @@
 !.gitmodules
 *~
 
+_site
+.sass-cache
+.jekyll-metadata
 components/
-
-_site/
