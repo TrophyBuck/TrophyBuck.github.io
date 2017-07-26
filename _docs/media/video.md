@@ -1,6 +1,6 @@
 ---
 title: Video
-category: Media
+category: z_default
 order: 2
 ---
 

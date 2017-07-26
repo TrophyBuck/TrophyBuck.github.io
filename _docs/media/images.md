@@ -1,6 +1,6 @@
 ---
 title: Images
-category: Media
+category: z_default
 order: 1
 ---
 

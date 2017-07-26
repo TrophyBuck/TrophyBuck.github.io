@@ -1,6 +1,6 @@
 ---
 title: Documents
-category: Media
+category: z_default
 order: 3
 ---
 
