@@ -1,67 +1,37 @@
-# Edition
+# Jekyll-Bootstrap-3
 
-Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
-Start documenting your product, application, service or website with this configurable theme.
+Easily publish Bootstrap 3 powered Jekyll sites.  
+Fork of the well known jekyll-bootstrap (v0.3.0). Original project is [here](https://github.com/plusjade/jekyll-bootstrap).  
+The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages.  
 
-![Edition template screenshot](images/_screenshot.png)
+## Usage
 
-Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
+### 1. Create a Repo
+- Go to <https://github.com> and create a new repository named *USERNAME.github.io*  
 
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+### 2. Install Jekyll-Bootstrap-3  
+<pre>
+  <code>
+    $ git clone https://github.com/dbtek/jekyll-bootstrap-3 USERNAME.github.io
+    $ cd USERNAME.github.com
+    $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.io.git
+    $ git push origin master  
+  </code>
+</pre>  
+### 3. Enjoy !
+- After giving 10 mins to GitHub of course.  
 
-## Features
+For original project's usage and documentation please see: <http://jekyllbootstrap.com>  
 
-* Two column layout
-* Full text search
-* Pre-styled components
-* Auto-generated navigation based on category
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* Change log
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
 
-## Setup
+### Themes
 
-1. Add your site and author details in `_config.yml`.
-2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+Quickly install and use lovely themes with Jekyll Bootstrap 3. Visit [theme gallery](http://jekyll-bootstrap-3.github.io/preview).
 
-## Develop
+## License
 
-Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+[MIT](http://opensource.org/licenses/MIT)
 
-Install the dependencies with [Bundler](http://bundler.io/):
 
-~~~bash
-$ bundle install
-~~~
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/jekyll-bootstrap-3/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
-
-### Documentation pages
-
-* Add, update or remove a documentation page in the *Documentation* collection.
-* Change the category of a documentation page to move it to another section in the navigation.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-
-### Change log
-
-* Add, update or remove change log entries from your posts.
-* Tag entries as minor or major in the front matter.
-
-### Search
-
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
-
-### Navigation
-
-* Change `site.show_full_navigation` to control all or only the current navigation group being open.
