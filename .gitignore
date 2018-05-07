@@ -1,9 +1,4 @@
-.*
-!.gitignore
-!.gitmodules
-*~
-
-_site
+/_site
+*.gem
 .sass-cache
-.jekyll-metadata
-components/
+Gemfile.lock
